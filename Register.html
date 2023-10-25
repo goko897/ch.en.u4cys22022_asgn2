@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="generate()">
+    <p class="title"><a href="main.html"><image src="logo.png" class="logo"></image></a>PunjabiDabba</p>
+    <div class="form" class="Content">
+    <p class="subTitle">Registeration Page</p>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="zipcode">ZIP Code:</label>
+        <input type="text" id="zipcode" name="zipcode" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="zipcode" cols="50" rows="4" ><br>
+        </textarea><br><br>
+        <div id="user-input" class="inline">
+            <input type="text"
+                   id="submit"
+                   placeholder="Captcha code" />
+        </div>
+
+        <div class="inline" onclick="generate()">
+            <i class="fas fa-sync"></i>
+        </div>
+
+        <div id="image"
+             class="inline"
+             selectable="False">
+        </div>
+        <input type="submit"
+               id="btn"
+               
+               onclick="printmsg()" value="verify" />
+        
+        <p id="key"></p>
+        
+                <input type="submit" value="Submit" class="btn">
+                <script src="register.js"></script>
+    </form>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,241 @@
+*{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title{
+    font-style:oblique;
+    font-size:83px;
+    text-align: center;
+    align-content: center;
+    font-weight: 200;
+    font-feature-settings: "akhn";
+    text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+    color: #ecbb40;
+}
+.subTitle{
+    font-style:oblique;
+    font-size:50px;
+    align-content: center;
+    font-weight: 200;
+    font-feature-settings: "akhn";
+    text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+    color: #ecbb40;
+}
+.logo{
+    border-radius: 50%;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+}
+
+  table { 
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
+
+} 
+
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: #ecbb40; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: 5px 5px 5px 5px gray;
+} 
+
+input[type="text"], input[type="password"] ,textarea { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.textOnPage{
+  font-style:oblique;
+  font-size: 40px;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.form{
+  font-style:oblique;
+    font-size:30px;
+    align-content: center;
+    font-weight: 200;
+    font-feature-settings: "akhn";
+    text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+  width: 1700px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ecbb40;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+ul {
+  list-style-type: none;
+  margin: 2;
+  padding: 2;
+  overflow: hidden;
+  background-color: #747070;
+
+}
+li{
+  float: left;
+  padding: 2;
+  
+  border-radius: 20;
+}
+
+
+.img {
+  display: block;
+  width: 100%;
+  max-height: 150%;
+}
+
+.grid{
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.text {
+  font-style:oblique;
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.btn{
+  border-radius: 8px;
+  background-color: #ecbb40;
+  background-color: #ecbb40;
+    color: white;
+    padding: 16px;
+    font-style: italic;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    align-self: left;
+}
+.btn:hover, .btn:focus {
+  background-color: #ecbb40;
+}
+.Content{
+  font-style:oblique;
+    font-size:30px;
+    margin-left: 300px
+    align-content: ;
+    font-weight: 200;
+    font-feature-settings: "akhn";
+    text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+  
+}
+#image{
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px 5px gray;
+	width: 60px;;
+	padding: 20px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	height: 40px;
+	user-select: none;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: red 2px solid;
+	margin-left: 10px;
+	
+}
+#user-input{
+	box-shadow: 5px 5px 5px 5px gray;
+	width:auto;
+	margin-right: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
+	height: 40px;
+	border: red 0px solid;
+}
+
+.inline{
+	display:inline-block;
+}
+#btn{
+	box-shadow: 5px 5px 5px grey;
+	color: aqua;
+	margin: 10px;
+	background-color: brown;
+}
+.form{
+  text-align: center;
+}
